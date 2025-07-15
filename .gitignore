@@ -1,6 +1,4 @@
-# Ignore raw data files
-#data/
-#*.csv
+
 
 # Ignore interactive dashboard outputs
 dashboard/*.html
