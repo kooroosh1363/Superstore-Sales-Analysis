@@ -106,8 +106,33 @@ Created by [Your Name] as part of a professional data science portfolio.
 
 ---
 
+## 🚀 Try it Live
+
+👉 [Launch Streamlit App](https://superstore-sales-analysis-3wnvmwugtcnluasejtx45n.streamlit.app)
+
+Or run it locally using:
+
+```bash
+git clone https://github.com/kooroosh1363/Superstore-Sales-Analysis.git
+cd Superstore-Sales-Analysis
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+
+
+
+
+
+
 ## 🚀 Next Steps (Optional)
 
 - Deploy Streamlit dashboard from the final notebook
 - Extend analysis with Customer Lifetime Value (CLTV)
 - Apply ML models to forecast sales or predict churn
+
+
+
+## 🙏 Credits
+
+Created with ❤️ by Peyman using Streamlit.
