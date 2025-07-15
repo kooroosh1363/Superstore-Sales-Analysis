@@ -1,25 +1,27 @@
-# Ignore data files
-data/
-*.csv
+# Ignore raw data files
+#data/
+#*.csv
 
-# Ignore dashboard HTML outputs
+# Ignore interactive dashboard outputs
 dashboard/*.html
 
-# Ignore notebook checkpoints
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
 
 # Ignore virtual environments
 .venv/
 env/
 ENV/
 
-# Ignore compiled python files
-__pycache__/
-*.pyc
-
-# Ignore OS files
+# Ignore OS-specific files
 .DS_Store
+Thumbs.db
 
-# Optional: Jupyter output cache
+# Ignore logs or temporary files
 *.log
 *.out
+*.tmp
