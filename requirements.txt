@@ -1,0 +1,14 @@
+# Create a requirements.txt file with necessary libraries
+requirements = """
+streamlit
+pandas
+plotly
+"""
+
+file_path = "/mnt/data/requirements.txt"
+with open(file_path, "w") as f:
+    f.write(requirements.strip())
+
+file_path
+Result
+'/mnt/data/requirements.txt'
